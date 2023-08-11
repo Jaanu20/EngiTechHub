@@ -1,0 +1,60 @@
+h1
+{
+text-align:center;
+}
+body
+{
+background:url("bg5.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+h2
+{
+text-align:center;
+font-size:40px;
+}
+.block{
+  width: 30%;
+  padding: 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color:green;
+
+}
+td,tr
+{
+  justify-content: center;
+   align-items: center;
+}
+.container {
+ display: flex;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+.text {
+font-size: 20px;
+font-family:sans-serif;
+}
+section
+{
+width:100%;
+justify-content:right;
+align-items:center;
+padding:30px;
+border-style:outset;
+border: 3px outset blue;
+border-color:blue;
+font-style:italic;
+font-size: 20px;
+text-align:center;
+}
+header
+{
+background-color:navy;
+text-align:right;
+padding: 4px 0;
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup Form</title>
+<style>
+.container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 10px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+</style>
+<script>
+document.getElementById("signupForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  var username = document.getElementById("signupUsername").value;
+  var email = document.getElementById("signupEmail").value;
+  var password = document.getElementById("signupPassword").value;
+
+  // Display signup details
+  showMessage("Sign up with username: " + username + ", email: " + email + " and password: " + password);
+});
+</script>
+</head>
+<body>
+     <center><img src="si.jpg" height=200 width=200>
+    <div class="container">
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+      <input type="text" placeholder="Username" id="signupUsername" required>
+      <input type="email" placeholder="Email" id="signupEmail" required>
+      <input type="password" placeholder="Password" id="signupPassword" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+
+</body>
+</html>

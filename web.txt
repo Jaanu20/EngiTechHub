@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EngiTechHub</title>
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body >
+<header>
+<a href="signlogin.html"><input type="button" value="login"></a>
+</header>
+<h1><u>EngiTechHub</u></h1>
+<h1><marquee>**EngiTechHub - Your Comprehensive Engineering Resource Hub**</marquee></h1>
+<div class="container">
+<pre><section>   
+                           Welcome to <mark>EngiTechHub</mark>,                                                                        
+                          the ultimate online resource hub for engineering students. 
+                       Whether you're studying ComputerScience, Electronics, Electrical, 
+                     Civil, Mechanical, or any other Engineering discipline, EngiTechHub
+                           is here to provide you with a wide range of valuable 
+                               resources to support your learning journey.</p></pre>
+</div></section>
+<pre><h2>"eLearning doesn't just "happen"! 
+It requires careful planning and implementation.”</h2></pre>
+<br>
+<form><center>
+<a href="signlogin.html"><input type="button" value="signin" class="block">&nbsp&nbsp</a>
+</form>
+</body>
+</html>

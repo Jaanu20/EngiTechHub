@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mechanical Department Sources</title>
+<style>
+body
+{
+background:url("cse.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+font-family:sans-serif;
+box-sizing:border-box;
+height:740px;
+}
+
+ul
+{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+ul li
+{
+float:left;
+width:250px;
+height:40px;
+background-color:green;
+opacity:.9;
+line-height:40px;
+text-align:center;
+font-size:20px;
+}
+ul li a
+{
+text-decoration:none;
+color:white;
+display:block;
+}
+ul li a:hover
+{
+background-color:brown;
+}
+ul li ul li 
+{
+display:none;
+}
+ul li:hover ul li
+{
+display:block;
+}
+p
+{
+font-size:20px;
+}
+h1,h2
+{
+text-align:center;
+}
+
+</style>
+
+</head>
+<body>
+  <h1>Mechanical Department</h1>
+  <ul>
+ <li><a href="#">Academic Journals</a>
+  <ul>
+    <li><a href="https://www.asme.org/">ASME Journals</a></li>
+    <li><a href="https://www.sciencedirect.com/">ScienceDirect</a></li>
+    <li><a href="https://pubs.acs.org/journal/esthag">Environmental Science & Technology</a></li>
+    <li><a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics">Journal of Fluid Mechanics</a></li>
+  </ul>
+  </li>
+  <li><a href="#">Conferences</a>
+  <ul>
+    <li><a href="https://www.asme.org/events/">ASME Conferences</a></li>
+    <li><a href="https://www.sae.org/attend/">SAE International Events</a></li>
+    <li><a href="https://events.imeche.org/">Institution of Mechanical Engineers (IMechE) Events</a></li>
+    <li><a href="https://www.isme.org/events">International Society for Music Education (ISME) Events</a></li>
+  </ul>
+  </li>
+  <li><a href="#">Online Learning Platforms</a>
+  <ul>
+    <li><a href="https://www.coursera.org/">Coursera</a></li>
+    <li><a href="https://www.edx.org/">edX</a></li>
+    <li><a href="https://www.udemy.com/">Udemy</a></li>
+    <li><a href="https://www.pluralsight.com/">Pluralsight</a></li>
+  </ul>
+  </li>
+  <li><a href="#">Research Organizations</a>
+  <ul>
+    <li><a href="https://www.nsf.gov/">National Science Foundation (NSF)</a></li>
+    <li><a href="https://www.asme.org/industry-connection/research-and-development">ASME Research and Development</a></li>
+    <li><a href="https://www.sae.org/technical-committees/">SAE Technical Committees</a></li>
+    <li><a href="https://www.energy.gov/science/">U.S. Department of Energy (DOE) Office of Science</a></li>
+  </ul>
+  </li>
+  <li><a href="#">Forums and Communities</a>
+  <ul>
+    <li><a href="https://engineering.stackexchange.com/">Engineering Stack Exchange</a></li>
+    <li><a href="https://www.reddit.com/r/MechanicalEngineering/">r/MechanicalEngineering (Reddit)</a></li>
+    <li><a href="https://www.eng-tips.com/">Eng-Tips Forums</a></li>
+    <li><a href="https://www.mechanicalengineeringforum.in/">Mechanical Engineering Forum</a></li>
+  </ul>
+</li></ul>
+<br><br><br><br><br><br>
+<h2>Introduction</h2>
+  <p>
+    The Mechanical Engineering Department is dedicated to the study and application of principles related to the design, analysis, and manufacturing of mechanical systems. Our department offers comprehensive undergraduate and graduate programs, providing students with a strong foundation in mechanical engineering principles and preparing them for a wide range of career opportunities.
+  </p>
+  
+  <h2>Programs and Degrees</h2>
+  <p>
+    Mechanical department offers a range of programs and degrees designed to prepare students for successful careers in mechanical engineering. These include:Bachelor of Technology (B.Tech) in Mechanical Engineering,Master of Technology (M.Tech) in Mechanical Engineering,Ph.D. in Mechanical Engineering,Various specialized certificate programs  </p> 
+  <h2>Career Opportunities</h2>
+  <p>
+    Graduates from our Mechanical Engineering Department have excellent career prospects in various sectors, including automotive, aerospace, energy, manufacturing, consulting, and research and development organizations. The skills and knowledge acquired through our programs enable students to tackle complex engineering challenges and contribute to technological advancements in the industry.
+  </p>
+  
+  <h2>Contact Us</h2>
+  <p>
+    If you have any questions or would like to learn more about the Mechanical Engineering Department, please feel free to contact us:
+    <br>
+    Email: mechanical.department@example.com
+    <br>
+    Phone: +1 (123) 456-7890
+  </p>
+</body>
+</html>

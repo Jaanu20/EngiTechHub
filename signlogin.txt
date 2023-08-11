@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>signin/login</title>
+<script>
+var attempt=3;
+function fun3()
+{
+var username;
+var password;
+username=document.getElementById("username").value;
+password=document.getElementById("password").value;
+if(username==="chintajhanu@gmail.com" &&password==="Jaanu@123")
+{
+alert("successful");
+window.location=("home.html");
+return false;
+}
+else
+{
+attempt--;
+alert("you have"+attempt+"attempt");
+if(attempt==0)
+{
+attempt=true;
+document.getElementById("username").disabled=true;
+document.getElementById("password").disabled=true;
+document.getElementById("submit").disabled=true;
+return false;
+}
+}
+}
+</script>
+<style>
+form
+{
+text-align:center;
+}
+body
+{
+background:url("bg1.jpg");
+}
+h1
+{
+background-color:#d2691e;
+}
+</style>
+</head>
+<body>
+<form>
+<h1>EngiTechHub</h1>
+<img src="log.jpg" width=200 height=200><br><br>
+<label for ="username">username:</label>
+<input type="text" id="username" name="username"><br><br>
+<label for ="password">password:</label>
+<input type="password" id="password" name="password"><br><br>
+<input type="button" id="submit" value="login" onclick="fun3()">
+</form>
+</body>
+</html>

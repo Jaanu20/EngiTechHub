@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ETH</title>
+<style>
+body
+{
+background:url("bg8.jpg");
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+box-sizing:border-box;
+background-repeat: no-repeat;
+height:730px;
+
+}
+h1
+{
+color:red;
+text-align:center;
+font-size:40px;
+}
+p
+{
+line-height:40px;
+font-size:20px;
+margin:50px;
+}
+.box{
+    width: 100%;
+}
+
+#search {
+    margin: 0 auto;
+    display: inline-block;
+}
+#searchInput {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+</style>
+<script>
+function searchBranch() {
+  var searchInput = document.getElementById("searchInput");
+  var branchName = searchInput.value.toLowerCase(); 
+  if (branchName === "cse") {
+    window.location.href = "CSE.html";
+  } else if (branchName === "ece") {
+    window.location.href = "ECE.html";
+  } else if (branchName === "eee") {
+    window.location.href = "EEE.html";
+  }else if (branchName === "mech") {
+    window.location.href = "MECH.html";
+  } else if (branchName === "civil") {
+    window.location.href = "CIVIL.html";
+  }else if (branchName === "it") {
+    window.location.href = "IT.html";
+ }else if (branchName === "apptitude") {
+    window.location.href = "APP.html";
+ }else {
+    alert("Branch not found!"); 
+  }
+}
+
+</script>
+</head>
+<body>
+<h1>ENGI TECH HUB</h1>
+<p>At Engineering Technology Hub, we are dedicated to providing a comprehensive platform for engineers, students, and professionals to access valuable resources and stay updated with the latest advancements in the engineering field. Our mission is to foster knowledge sharing and support the growth and development of the engineering community worldwide.</p>
+<center><img src="logo1.jpg" width=200 height=200>
+<div>
+            <h1>SEARCH HERE</h1>
+        </div>
+        <div class="box">
+            <input type="text" id="searchInput" placeholder="Search for a branch">
+  <button onclick="searchBranch()">Go</button>
+
+  <script src="script.js"></script>
+        </div>
+
+</body>
+</html>
